@@ -2,9 +2,9 @@
 
 (princ (strcat "
 	                Author - Robert Stokłosa
-					Available commands:
-					AttIntoBlockHiperlink - inserts a hyperlink into blocks with a name provided by the user. 
-                    The hyperlink is retrieved from an attribute located within the block and specified by the user.
+			Available commands:
+			AttIntoBlockHiperlink - inserts a hyperlink into blocks with a name provided by the user. 
+                    	The hyperlink is retrieved from an attribute located within the block and specified by the user.
 ") )
 
 (defun LM:vl-getattributevalue ( blk tag )
